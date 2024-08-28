@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  box-sizing: border-box;
+  font-family: monospace;
+  width: 100%;
+  min-height: 100vh;
+
+  background: linear-gradient(
+    270deg,
+    red,
+    rgb(68, 255, 0),
+    yellow,
+    green,
+    rgb(6, 196, 234),
+    violet
+  );
+  background-size: 1000% 1000%;
+  animation: mileBackground 20s ease alternate infinite;
+}
+
+@keyframes mileBackground {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+.inputAndSubmit {
+  width: 100%;
+  height: 15rem;
+  /* border: 2px solid rebeccapurple; */
+  margin-bottom: 1rem;
+  border-bottom: 3px solid black;
+  margin-top: 0rem;
+}
+#inputField {
+  height: 2.7rem;
+  margin: 0rem 0;
+  height: 4rem;
+  width: 5%;
+  cursor: pointer;
+  background-color: rgb(210, 244, 136);
+  font-size: 2rem;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.inputAndSubmit button {
+  height: 2.7rem;
+  margin: 1rem 0;
+  height: 4rem;
+  width: 20%;
+  cursor: pointer;
+  background-color: rgb(210, 244, 136);
+  font-size: 2rem;
+  border-radius: 20px;
+}
+
+.inputAndSubmit button:hover {
+  background-color: black;
+  color: yellow;
+}
+.results {
+  border-bottom: 2px solid rgb(14, 0, 0);
+  position: relative;
+  width: 110rem;
+  min-height: 5rem;
+  margin-top: 1rem;
+}
+.displayNone {
+  border: none;
+}
+.results p {
+  font-size: 1.2rem;
+}
+.results p span {
+  font-weight: 900;
+  font-size: 1.3rem;
+  text-decoration: underline;
+}
+.resultsBtn {
+  width: 10rem;
+  height: 2rem;
+  margin: 1rem 1rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#btnDelete {
+  background-color: red;
+}
+#btnDelete:hover {
+  background-color: black;
+  color: red;
+}
+#btnEdit {
+  background-color: greenyellow;
+}
+
+#btnEdit:hover {
+  background-color: rgb(1, 1, 0);
+  color: greenyellow;
+}
