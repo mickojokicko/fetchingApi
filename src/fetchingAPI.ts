@@ -96,20 +96,16 @@ function deleteHendler(event: Event) {
     if (parentDiv) {
       const idToDelete = parentDiv.getAttribute("data-id");
 
-      // Ukloni 'div' iz DOM-a
       parentDiv.remove();
 
-      // Ukloni element iz localStorage
       let storedData = JSON.parse(
         localStorage.getItem("idData") || "[]"
       ) as iFatchedData[];
 
-      // Filtriraj niz da ukloniš obrisani element
       storedData = storedData.filter(
         (item: iFatchedData) => item.id.toString() !== idToDelete
       );
 
-      // Ažuriraj localStorage sa novim nizom
       localStorage.setItem("idData", JSON.stringify(storedData));
     }
   }
