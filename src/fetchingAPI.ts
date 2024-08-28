@@ -113,9 +113,6 @@ function deleteHendler(event: Event) {
       localStorage.setItem("idData", JSON.stringify(storedData));
     }
   }
-  if (target.id === "btnEdit") {
-    console.log("Mile");
-  }
 }
 // ______________Events______________________
 
