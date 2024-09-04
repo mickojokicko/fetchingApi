@@ -54,7 +54,6 @@ function getDataFromApi() {
       // __________Clear FIelds and reload page____________________
       window.location.reload();
       clearField();
-      // __________________________________________
     } catch (err: any) {
       console.error("Error:", err);
       alert(err.message);
