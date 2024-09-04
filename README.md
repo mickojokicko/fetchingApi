@@ -1,4 +1,4 @@
-Projekat: API Data Fetch i Renderovanje
+Projekat: FfetchingAPI
 Ovaj projekat koristi JSONPlaceholder API za dohvat tipskih podataka. Nakon što se podaci dohvate, oni se spremaju u local storage i prikazuju u listi na korisničkom interfejsu. Ključne funkcionalnosti projekta uključuju:
 
 Dohvat podataka: Unosom ID broja u input polje, API dohvaća podatke vezane za taj ID.
