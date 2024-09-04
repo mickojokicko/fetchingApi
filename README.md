@@ -11,4 +11,4 @@ Unesite željeni ID u input polje.
 Podaci će biti dohvaćeni sa API-ja, sacuvani u local storage i  prikazani na ekranu.
 Klikom na dugme za brisanje možete ukloniti pojedinačne elemente iz liste.
 
-![izgled fetchingAPI](src/photo/fetchingAPI.png)
+![izgled fetchingAPI](src/photo/fetchingAPi.png)
