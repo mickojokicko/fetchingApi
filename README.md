@@ -1,14 +1,15 @@
-Projekat: FfetchingAPI
-Ovaj projekat koristi JSON Placeholder API za dohvat tipskih podataka. Nakon što se podaci dohvate, oni se spremaju u local storage i prikazuju u listi na korisničkom interfejsu. Ključne funkcionalnosti projekta uključuju:
+# Project: FetchingAPI
 
-Dohvat podataka: Unosom ID broja u input polje, API dohvaća podatke vezane za taj ID.
-Prikaz podataka: Podaci se prikazuju u listi koja sadrži informacije o korisnicima.
-Brisanje elemenata: Svaki element na listi ima dugme za brisanje, koje omogućava uklanjanje tog elementa sa liste.
+This project utilizes the JSON Placeholder API to fetch mock data. Once the data is retrieved, it is stored in local storage and displayed in a list on the user interface. Key functionalities of the project include:
 
-Kako koristiti:
+- **Fetching Data:** By entering an ID number into the input field, the API retrieves data related to that ID.
+- **Displaying Data:** The data is displayed in a list that includes user information.
+- **Deleting Items:** Each item in the list has a delete button, allowing for the removal of that item from the list.
 
-Unesite željeni ID u input polje.
-Podaci će biti dohvaćeni sa API-ja, sacuvani u local storage i  prikazani na ekranu.
-Klikom na dugme za brisanje možete ukloniti pojedinačne elemente iz liste.
+## How to Use:
 
-![izgled fetchingAPI](src/photo/fetchingAPi.png)
+1. Enter the desired ID into the input field.
+2. Data will be fetched from the API, stored in local storage, and displayed on the screen.
+3. Click the delete button to remove individual items from the list.
+
+![FetchingAPI layout](src/photo/fetchingAPi.png)
